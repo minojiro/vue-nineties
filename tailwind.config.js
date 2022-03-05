@@ -25,9 +25,21 @@ const theme = {
     }
   },
   animation: {
+    'blink': 'blink 2s linear infinite',
     'marquee': 'marquee 5s ease-in infinite',
   },
   keyframes: {
+    blink: {
+      '0%': {
+        visibility: 'hidden',
+      },
+      '50%': {
+        visibility: 'hidden',
+      },
+      '100%': {
+        visibility: 'visible',
+      },
+    },
     marquee: {
       'from': {
         transform: 'translateX(0)',
