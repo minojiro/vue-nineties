@@ -1,0 +1,44 @@
+{
+  "name": "vue-nineties",
+  "version": "0.0.0",
+  "description": "Nineties-looking component library for Vue3",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-nineties.umd.js",
+  "module": "./dist/vue-nineties.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-nineties.es.js",
+      "require": "./dist/vue-nineties.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "vitebook:dev": "IS_VITEBOOK=1 vitebook dev",
+    "vitebook:build": "IS_VITEBOOK=1 vitebook build",
+    "vitebook:preview": "IS_VITEBOOK=1 vitebook preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@vitebook/client": "^0.23.4",
+    "@vitebook/core": "^0.23.4",
+    "@vitebook/theme-default": "^0.23.4",
+    "@vitebook/vue": "^0.23.4",
+    "@vue/compiler-sfc": "^3.2.26",
+    "svelte": "^3.43.1",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.6.2",
+    "vite": "^2.8.6",
+    "vitest": "^0.5.9",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.4",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "happy-dom": "^2.45.0"
+  }
+}
