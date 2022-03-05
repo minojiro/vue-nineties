@@ -1,5 +1,10 @@
 const theme = {
   colors: {
+    'sys-gray': {
+      200: '#DBDBDB',
+      500: '#BFBFBF',
+      800: '#808080',
+    },
     'cyan': '#6ff',
     'light-gray': '#e0e0e0',
     'black': '#000',
@@ -20,6 +25,9 @@ const theme = {
     serif: ["ＭＳ 明朝", 'serif'],
   },
   extend: {
+    backgroundImage: {
+      rainbow: "linear-gradient(to right, red, orange, yellow, green, aqua, blue, purple)",
+    },
     flex: {
       '999': '999'
     }
