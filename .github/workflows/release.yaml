@@ -1,0 +1,27 @@
+name: release
+
+on: push
+
+jobs:
+  vitebook:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v2
+      - name: setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+          registry-url: 'https://registry.npmjs.org'
+      - name: build
+        run: npm i && npm run vitebook:build
+      -
+        name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: .vitebook/dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
