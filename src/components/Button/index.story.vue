@@ -7,9 +7,7 @@ const disabled = ref(false);
 </script>
 
 <template>
-  <Variant name="Default" description="The default button.">
-    <Button :disabled="disabled" @click="eventCallback">OK</Button>
-  </Variant>
+  <Button :disabled="disabled" @click="eventCallback">OK</Button>
   <ControlsAddon>
     <label>Disabled <input type="checkbox" v-model="disabled" /></label>
   </ControlsAddon>
