@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="vitebook@0.23.4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Components Button Index | vue-nineties</title>
+   <meta name="description" content="">
+   <script>
+  const key = '@vitebook/color-scheme';
+  const saved = window.localStorage.getItem(key) ?? 'auto';
+  const dark = saved === 'auto' ?
+    window.matchMedia('(prefers-color-scheme: dark)').matches
+    : saved === 'dark';
+  if (dark) {
+    const htmlEl = window.document.querySelector('html');
+    htmlEl.classList.add('dark')
+  }
+    </script>
+   <meta property="og:site_name" content="vue-nineties">
+   <meta property="og:title" content="Components Button Index | vue-nineties">
+   <meta property="og:description" content="">
+   <meta property="twitter:title" content="Components Button Index | vue-nineties">
+   <meta property="twitter:description" content="">
+    <link rel="stylesheet" href="/assets/css/style.b2d511fb.css">
+    <link rel="modulepreload" crossorigin href="/assets/js/@vitebook/VuePageView.beed8001.js">
+    <link rel="modulepreload" crossorigin href="/assets/js/index.story.deca3bf3.js">
+    <link rel="modulepreload" crossorigin href="/assets/js/framework.f1b41545.js">
+    
+    <link rel="modulepreload" crossorigin href="/assets/entry-client.648c575b.js">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="app"><div class="theme __vbk__ svelte-kg26u5 no-navbar">
+    <div class="navbar-fallback __vbk__ svelte-kg26u5"><span class="navbar__sidebar-toggle __vbk__"><button class="sidebar-toggle __vbk__ svelte-10yq60" :aria-label="Toggle sidebar menu"><div class="sidebar-toggle__container __vbk__ svelte-10yq60"><!-- HTML_TAG_START --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1.2em" height="1.2em"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+<!-- HTML_TAG_END --></div>
+</button></span>
+        <a class="navbar__title __vbk__ svelte-1f6oyy2" href="/" aria-label="vue-nineties, Take me home"><div class="navbar__logo __vbk__ svelte-1f6oyy2"><!-- HTML_TAG_START --><svg width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M39.7265 4.50427L39.7265 33.3318H12.3391L28.8049 4.50427H39.7265Z" fill="white" stroke="black" stroke-width="3" stroke-linejoin="bevel"/>
+<path d="M5.6571 22.6991L17.0572 4.50427H32.2324L25.249 15.1287L38.8616 15.1287L5.6571 44.8828L15.3886 22.6987L5.6571 22.6991Z" fill="currentColor" stroke="black" stroke-width="3" stroke-linejoin="bevel"/>
+</svg>
+<!-- HTML_TAG_END --></div>
+  vue-nineties
+</a></div>
+  
+
+  
+    <aside class="sidebar __vbk__ svelte-mg6wx9" aria-hidden="true">
+
+  <div class="sidebar__header __vbk__ svelte-mg6wx9"><div class="sidebar__header-wrapper __vbk__ svelte-mg6wx9"><a class="navbar__title __vbk__ svelte-1f6oyy2" href="/" aria-label="vue-nineties, Take me home"><div class="navbar__logo __vbk__ svelte-1f6oyy2"><!-- HTML_TAG_START --><svg width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M39.7265 4.50427L39.7265 33.3318H12.3391L28.8049 4.50427H39.7265Z" fill="white" stroke="black" stroke-width="3" stroke-linejoin="bevel"/>
+<path d="M5.6571 22.6991L17.0572 4.50427H32.2324L25.249 15.1287L38.8616 15.1287L5.6571 44.8828L15.3886 22.6987L5.6571 22.6991Z" fill="currentColor" stroke="black" stroke-width="3" stroke-linejoin="bevel"/>
+</svg>
+<!-- HTML_TAG_END --></div>
+  vue-nineties
+</a>
+        <div class="__vbk__" style="flex-grow: 1; margin-left: 2.5rem;"></div>
+        
+        
+        
+        <button class="theme-switch  svelte-1lvoxbk __vbk__" role="switch" aria-label="Toggle dark mode" aria-checked="false"><span class="theme-switch__icon light-icon __vbk__ svelte-1lvoxbk"><!-- HTML_TAG_START --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1.2em" height="1.2em"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 1 1-8 0a4 4 0 0 1 8 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+<!-- HTML_TAG_END --></span>
+    <span class="theme-switch__icon dark-icon __vbk__ svelte-1lvoxbk"><!-- HTML_TAG_START --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1.2em" height="1.2em"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M20.354 15.354A9 9 0 0 1 8.646 3.646A9.003 9.003 0 0 0 12 21a9.003 9.003 0 0 0 8.354-5.646z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+<!-- HTML_TAG_END --></span></button></div></div>
+
+  <div class="sidebar__body __vbk__ svelte-mg6wx9">
+
+    
+
+    <ul class="sidebar__current-menu __vbk__ svelte-mg6wx9" aria-hidden="false"><li class="sidebar-item with-menu __vbk__ svelte-qfhdik     style-explorer"><span class="__vbk__ svelte-qfhdik"><button id="sidebar-menu-button-0" aria-controls="sidebar-menu-0" aria-haspopup="true" class="sidebar-item__menu-button __vbk__ style-explorer  svelte-mijklx"><span class="sidebar-item__menu-button__icon __vbk__ svelte-qfhdik"><!-- HTML_TAG_START --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1.4em" height="1.4em"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 4H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2z" fill="currentColor"></path></svg>
+<!-- HTML_TAG_END --></span>
+      <span class="sidebar-item__menu-button__text __vbk__ svelte-qfhdik   style-explorer">Components</span>
+      <span class="sidebar-item__menu-button__caret __vbk__ svelte-qfhdik"></span></button></span>
+
+  <ul id="sidebar-menu-0" class="sidebar-item__menu __vbk__ svelte-qfhdik" aria-labelledby="sidebar-menu-button-0" aria-expanded="false"><li class="sidebar-item __vbk__ svelte-1exgrzc style-explorer"><a href="/components/blink/" class="sidebar-link __vbk__   style-explorer  svelte-mijklx"><span class="sidebar-link__text __vbk__ svelte-1exgrzc"><span class="sidebar-link__icon type-vue svelte-1exgrzc __vbk__"><!-- HTML_TAG_START --><!-- HTML_TAG_END --></span>
+      Blink
+      </span></a>
+</li><li class="sidebar-item __vbk__ svelte-1exgrzc style-explorer"><a href="/components/button/" class="sidebar-link __vbk__ active  style-explorer  svelte-mijklx"><span class="sidebar-link__text __vbk__ svelte-1exgrzc active"><span class="sidebar-link__icon type-vue svelte-1exgrzc __vbk__  active"><!-- HTML_TAG_START --><!-- HTML_TAG_END --></span>
+      Button
+      </span></a>
+</li><li class="sidebar-item __vbk__ svelte-1exgrzc style-explorer"><a href="/components/marquee/" class="sidebar-link __vbk__   style-explorer  svelte-mijklx"><span class="sidebar-link__text __vbk__ svelte-1exgrzc"><span class="sidebar-link__icon type-vue svelte-1exgrzc __vbk__"><!-- HTML_TAG_START --><!-- HTML_TAG_END --></span>
+      Marquee
+      </span></a>
+</li><li class="sidebar-item __vbk__ svelte-1exgrzc style-explorer"><a href="/components/rainbow/" class="sidebar-link __vbk__   style-explorer  svelte-mijklx"><span class="sidebar-link__text __vbk__ svelte-1exgrzc"><span class="sidebar-link__icon type-vue svelte-1exgrzc __vbk__"><!-- HTML_TAG_START --><!-- HTML_TAG_END --></span>
+      Rainbow
+      </span></a>
+</li>
+    </ul>
+</li></ul></div>
+
+  
+      
+</aside>
+  
+
+  <div class="preview __vbk__ svelte-kg26u5">
+
+    
+
+    
+
+    <div class="preview__content __vbk__ svelte-kg26u5">
+        <main class="page type-vue svelte-jhktk __vbk__ no-navbar"><div class="page__container __vbk__ svelte-jhktk">
+
+    <div class="__vbk__"><!-- HTML_TAG_START --><div class="base"><!--[--><button class="w-full block bg-sys-gray-500 border-t border-t-white border-l border-l-white border-b border-b-black border-r border-r-black"><div class="border-t border-t-sys-gray-200 border-l border-l-sys-gray-200 border-b border-b-sys-gray-800 border-r border-r-sys-gray-800"><div class="p-1 border border-dotted border-transparent text-black"><!--[-->OK<!--]--></div></div></button><!----><div></div><!--]--></div><!-- HTML_TAG_END --></div>
+
+    
+
+    
+          </div>
+</main>
+      </div>
+
+    </div>
+
+  
+    
+  
+
+  
+
+  
+
+  
+    <div class="scrim __vbk__ svelte-kg26u5"><button class="scrim __vbk__ svelte-zhfmk7" aria-label="Close scrim"></button></div>
+  
+</div></div>
+    <script type="module" src="/assets/entry-client.648c575b.js" defer></script>
+  </body>
+</html>
