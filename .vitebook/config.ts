@@ -13,9 +13,12 @@ export default defineConfig<DefaultThemeConfig>({
     defaultThemePlugin(),
   ],
   site: {
+    baseUrl: process.env.NODE_ENV === "production" ? "/vue-nineties/" : "/",
+    lang: "en-US",
     title: "vue-nineties",
-    description: "",
+    description: "Nineties-looking component library for Vue3",
+    head: [],
     theme: {},
-    baseUrl: process.env.NODE_ENV === "production" ? "/<REPO>/" : "/",
+    locales: {},
   },
 });
