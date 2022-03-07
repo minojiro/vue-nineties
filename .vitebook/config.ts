@@ -16,5 +16,6 @@ export default defineConfig<DefaultThemeConfig>({
     title: "vue-nineties",
     description: "",
     theme: {},
+    baseUrl: process.env.NODE_ENV === "production" ? "/<REPO>/" : "/",
   },
 });
