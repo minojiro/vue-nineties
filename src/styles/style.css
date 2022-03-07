@@ -1,0 +1,19 @@
+@tailwind base;
+
+@layer base {
+  body, .base {
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: none;
+  }
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer utilities {
+  .text-bg-clip {
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
