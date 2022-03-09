@@ -13,9 +13,12 @@ For new features and bug fixes, please create pull request to main branch.
 ### Useful Commands
 
 ```bash
+# install packages
+pnpm i
+
 # open the dev server
-npm run vitebook:dev
+pnpm vitebook:dev
 
 # testing
-npm run test
+pnpm test
 ```
